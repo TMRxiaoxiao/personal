@@ -1,0 +1,1590 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+body{
+    width: 100%;
+    background: #ffffff;
+    z-index: 20000;
+}
+/****************banner******************/
+.banner-parent{
+    width: 100%;
+    position: relative;
+}
+
+.zhe-parent img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.zhe-parent{
+    position: relative;
+}
+.zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ol.point{
+   transform: rotate(90deg);
+    left: 80%;
+    top: 30%;
+}
+.head-s3{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: rgba(175,175,175,0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px 50px 0 0;
+    text-align: center;
+    line-height: 50px;
+
+} 
+a.head-s3{
+     text-decoration: none;
+}
+.head-s3 i{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: #fff;
+    animation: donghua 1.5s infinite;
+}
+@keyframes donghua{
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(10px);
+    }
+    60%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    90%{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/************************************************/
+
+/*********************about me ****************************/
+div.about-me{
+    /*background: green;*/
+    position: relative;
+    z-index: 30;
+    overflow: hidden;
+}
+.about-me-left{
+    width: 50%;
+    height:100%;
+    /*background: red;*/
+    float:   left;
+    padding: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-image: url(../img/hire_bg.jpg) ;
+
+}
+.about-me-left >p{
+    font-size: 26px;
+    color: #000;
+    display: inline-block;
+}
+.about-me-left p span{
+    display: inline-block;
+    font-size: 36px;
+}
+.text{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.btn-me{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+}
+.btn-me a{
+    color: #2EC06C;
+    text-decoration: none;
+}
+.my-work{
+    width: 180px;
+    height: 60px;
+    border:1px #2EC06C solid;
+    float: left;
+    margin-right: 50px;
+    margin-left:50px;
+    text-align: center;
+    line-height: 60px;
+    color: #2ec06c;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.hire-me{
+    width: 180px;
+    height: 60px;
+    border:1px #2EC06C solid;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #2ec06c;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.my-work:hover,.hire-me:hover{
+    border-radius: 30px;
+    background: #2ec06c;
+
+    transition: all 0.5s;
+}
+.my-work:hover a,.hire-me:hover a{
+    color: #ffffff;
+    transition: all 0.5s;
+}
+.about-me-right{
+    width: 50%;
+    height:100%;
+    background: rgba(0,0,0,0.1);
+    float: left;
+}
+.about-me-right >ul{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.about-me-right >ul >li{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.about-me-right .xianshi{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.about-me-right >ul img{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.dian{
+    width: 80px;
+    height: 15px;
+    /*background: red;*/
+    position: absolute;
+    right: 45%;
+    bottom: 50%;
+    transform: rotate(90deg);
+}
+.dian >div{
+    width: 15px;
+    height: 15px;
+    background: #444444;
+    float: left;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.dian .dian-xianshi{
+    background: #2ec06c;
+}
+
+/*********************about me ****************************/
+
+/***********************my servicess***************************/
+.servicess{
+    width: 100%;
+    height: 606px;
+    padding-top: 100px;
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+    z-index:20;
+}
+.servicess >h2{
+    text-align: center;
+    
+}
+.servicess >p{
+    text-align: center;
+    font-size: 18px;
+}
+.row{
+    margin-top: 60px;
+}
+.servicess li{
+    /*background: yellow;*/
+    height: 114px;
+    margin-bottom: 60px;
+    padding-right: 30px;
+    position: relative;
+}
+.servicess li >a{
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: #2ec06c;
+    font-weight:600;
+}
+.servicess li >div{
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+/***********************my servicess***************************/
+/********************conpanies**************************************/
+.bac-img{
+    width: 100%;
+    height:350px;
+    position: relative;
+    overflow: hidden;
+}
+.bac-img >img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bac-img >div{
+    width: 100%;
+    height: 110%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.bac-img >p{
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    z-index: 20;
+    left: 50%;
+    margin-left: -225px;
+    top: 100px;
+}
+.bac-img >section{
+    width: 1140px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 150px;
+}
+.bac-img >section >ul{
+    width: 100%;
+    height: 100%;
+}
+.bac-img >section >ul >li{
+    width: 150px;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+}
+.bac-img >section >ul >li >img{
+    display: block;
+}
+
+
+
+
+
+/********************conpanies**************************************/
+/***************************check*****************************************/
+.check{
+    width: 100%;
+    height: 1122px;
+    background: #ffffff;
+    overflow: hidden;
+}
+.check >h3{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.check >h3 >span{
+    color: #2ec06c;
+    font-family: "华文行楷";
+    font-size: 38px;
+}
+.check >p{
+    text-align: center;
+    margin-top: 30px;
+}
+.check-div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.check-div li{
+    margin-bottom: 30px;
+}
+.check-div section{
+    width: 360px;
+    height: 270px;
+    background: #2ec06c;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    transform: scale(0);
+    transition: all 0.3s;
+    opacity: 0;
+}
+.check-div li:hover section{
+    transform: scale(1);
+    transition: all 0.3s;
+    opacity: 0.9;
+}
+.check-div section >div{
+    width: 180px;
+    height: 60px;
+    border: 3px #ffffff solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 16px;
+    overflow: hidden;
+}
+.check-div section >div a:first-child{
+    color: #fff;
+    text-decoration: none;
+}
+.a1,.a2{
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: #ffffff;
+    opacity: 0;
+    transition: all 1s;
+}
+.a1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px 0 0 10px;
+}
+.a2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 10px 10px 0;
+}
+.check-div section >div:hover .a1{
+   opacity: 0.6;
+    left: -50px;
+    transition: all 0.5s;
+}
+.check-div section >div:hover .a2{
+   opacity: 0.6;
+    right: -50px;
+    transition: all 0.5s;
+}
+.check-div-wen{
+    width: 100%;
+    height: 72px;
+    background: #dddddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+/***************************check*****************************************/
+/**********************Alo***************************************/
+.alo{
+    width: 100%;
+    height: 459px;
+}
+.alo-img{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.alo-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.alo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.alo-img h1{
+    width: 100%;
+    color: #2ec06c;
+    font-size: 100px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    text-align: center;
+    font-family: "宋体";
+}
+.alo-img p{
+    width: 50%;
+    font-size: 16px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color: #dddddd;
+}
+.alo-img h3{
+    width: 100%;
+    color: #2ec06c;
+    font-size: 30px;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    text-align: center;
+    font-family: "宋体";
+}
+.alo-img h3 span{
+    color: #ffffff;
+}
+/**********************Alo***************************************/
+/***********************project*************************************/
+.project{
+    margin-top: -20px;
+    width: 100%;
+    height: 700px;
+    background: #ffffff;
+}
+.project >h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+.project >h3 >span{
+    color: #2ec06c;
+    font-family: "小篆";
+    font-weight:600;
+}
+.project >p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.share{
+    /*background: green;*/
+    height: 360px;
+}
+.share div{
+    width: 160px;
+    height: 180px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 180px;
+    transition: all 0.5s;
+}
+.share >div:nth-child(1){
+    border:1px #3B5998 solid;
+    color: #3B5998;
+}
+.share >div:nth-child(1):hover{
+    background: #3B5998;
+    color: #ffffff;
+    transition: all 1s;
+}
+.share >div:nth-child(2){
+    border:1px #00ACED solid;
+    color: #00ACED;
+}
+.share >div:nth-child(2):hover{
+    background: #00ACED;
+    color: #ffffff;
+    transition: all 1s;
+}
+.share >div:nth-child(3){
+    border:1px #517FA4 solid;
+    color: #517FA4;
+}
+.share >div:nth-child(3):hover{
+    background: #517FA4;
+    color: #ffffff;
+    transition: all 1s;
+}
+.share >div:nth-child(4){
+    border:1px #FF0084 solid;
+    color: #FF0084;
+}
+.share >div:nth-child(4):hover{
+    background: #FF0084;
+    color: #ffffff;
+    transition: all 1s;
+}
+.input{
+    /*background: red;*/
+    height: 360px;
+    position: relative;
+}
+.input >input{
+    width: 45%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border:none;
+    border:1px #cccccc solid;
+    outline: none;
+}
+.input >textarea{
+    margin-top: 20px;
+    resize : none;
+    border:none;
+    border:1px #cccccc solid;
+    outline: none;
+    width:90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+}
+div.plane{
+    width:10%;
+    height:194px;
+    background: #2ec06c;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 194px;
+    transition: all 0.5s ;
+}
+div.plane:hover{
+    border:1px #2ec06c solid;
+    background: #ffffff;
+    color: #2ec06c;
+    transition: all 0.5s;
+}
+/***********************project*************************************/
+.lazy{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+}
+/*pc大屏>1200px  container  1170px  col-lg-  */
+@media screen and (min-width: 1200px) {
+    div.logo{
+        position: absolute;
+        top:50px;
+        left:80px;
+        z-index: 20;
+    }
+    div.logo >img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    div.hello{
+        position: absolute;
+        top: 150px;
+        left: 80px;
+        z-index: 20;
+        color: #ffffff;
+    }
+    /**********/
+    div.about-me{
+        width: 100%;
+        height: 585px;
+    }
+
+}
+/*pc小屏=992~1200px   container  970px  col-md-   */
+@media screen and (min-width:992px) and (max-width:1200px){
+    div.logo{
+        position: absolute;
+        top:50px;
+        left:80px;
+        z-index: 20;
+    }
+    div.logo >img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    div.hello{
+        position: absolute;
+        top: 150px;
+        left: 80px;
+        z-index: 20;
+        color: #ffffff;
+    }
+    /**/
+    div.about-me{
+        width: 100%;
+        height: 520px;
+    }
+    .btn-me{
+        width: 65%;
+        height: 50px;
+        position: absolute;
+        bottom: 10px;
+        left:5%;
+    }
+    /**/
+    .servicess {
+        padding-top: 30px;
+    }
+    .row{
+        margin-top: 0px;
+    }
+    .servicess li{
+        /*background: yellow;*/
+        height: 50px;
+        margin-bottom: 60px;
+        padding-right: 30px;
+        position: relative;
+    }
+    .servicess li >a{
+        font-size: 30px;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        color: #2ec06c;
+        font-weight:600;
+    }
+    .servicess li >div{
+        position: absolute;
+        top: 0;
+        left: 50px;
+    }
+/******************/
+    .check-div section{
+        width: 293px;
+        height: 291px;
+        background: #2ec06c;
+        position: absolute;
+        top: 0;
+        left: 15px;
+        transform: scale(0);
+        transition: all 0.3s;
+        opacity: 0;
+    }
+    .check-div li:hover section{
+        transform: scale(1);
+        transition: all 0.3s;
+        opacity: 0.9;
+    }
+    .check-div section >div{
+        width: 180px;
+        height: 60px;
+        border: 3px #ffffff solid;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        line-height: 60px;
+        color: #ffffff;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .a1,.a2{
+        display: block;
+        width: 50%;
+        height: 100%;
+        background: #ffffff;
+        opacity: 0;
+        transition: all 1s;
+    }
+    .a1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    .a2{
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 0 10px 10px 0;
+    }
+    .check-div section >div:hover .a1{
+        opacity: 0.6;
+        left: -50px;
+        transition: all 0.5s;
+    }
+    .check-div section >div:hover .a2{
+        opacity: 0.6;
+        right: -50px;
+        transition: all 0.5s;
+    }
+    .check-div-wen{
+        width: 100%;
+        height: 72px;
+        background: #dddddd;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    /*****    ****************************************/
+    .project {
+        height: 600px;
+    }
+    .share{
+        /*background: green;*/
+        height: 360px;
+    }
+    .share div{
+        width: 120px;
+        height: 180px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        font-size: 60px;
+        text-align: center;
+        line-height: 180px;
+        transition: all 0.5s;
+    }
+    .share >div:nth-child(1){
+        border:1px #3B5998 solid;
+        color: #3B5998;
+    }
+    .share >div:nth-child(1):hover{
+        background: #3B5998;
+        color: #ffffff;
+        transition: all 1s;
+    }
+    .share >div:nth-child(2){
+        border:1px #00ACED solid;
+        color: #00ACED;
+    }
+    .share >div:nth-child(2):hover{
+        background: #00ACED;
+        color: #ffffff;
+        transition: all 1s;
+    }
+    .share >div:nth-child(3){
+        border:1px #517FA4 solid;
+        color: #517FA4;
+    }
+    .share >div:nth-child(3):hover{
+        background: #517FA4;
+        color: #ffffff;
+        transition: all 1s;
+    }
+    .share >div:nth-child(4){
+        border:1px #FF0084 solid;
+        color: #FF0084;
+    }
+    .share >div:nth-child(4):hover{
+        background: #FF0084;
+        color: #ffffff;
+        transition: all 1s;
+    }
+    .input{
+        /*background: red;*/
+        height: 360px;
+        position: relative;
+    }
+    .input >input{
+        width: 45%;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border:none;
+        border:1px #cccccc solid;
+        outline: none;
+    }
+    .input >textarea{
+        margin-top: 20px;
+        resize : none;
+        border:none;
+        border:1px #cccccc solid;
+        outline: none;
+        width:90%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    div.plane{
+        width:10%;
+        height:194px;
+        background: #2ec06c;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 0 10px 10px 0;
+        font-size: 50px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 194px;
+        transition: all 0.5s ;
+    }
+    div.plane:hover{
+        border:1px #2ec06c solid;
+        background: #ffffff;
+        color: #2ec06c;
+        transition: all 0.5s;
+    }
+
+}
+/*平板=768~992px  container 750px  col-sm- */
+@media screen and (min-width:768px) and (max-width:992px) {
+    div.logo{
+        position: absolute;
+        top:50px;
+        left:80px;
+        z-index: 20;
+    }
+    div.logo >img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    div.hello{
+        position: absolute;
+        top: 150px;
+        left: 80px;
+        z-index: 20;
+        color: #ffffff;
+    }
+    /**/
+    div.about-me{
+        width: 100%;
+        height: 1000px;
+    }
+    .about-me-left{
+        width: 100%;
+        height:50%;
+        /*background: red;*/
+        padding: 50px;
+        padding-top: 100px;
+        padding-left: 100px;
+
+    }
+    .about-me-left >p{
+        font-size: 26px;
+        color: #000;
+        display: inline-block;
+    }
+    .about-me-left p span{
+        display: inline-block;
+        font-size: 36px;
+    }
+    .btn-me{
+        width: 65%;
+        height: 60px;
+        position: absolute;
+        bottom: 580px;
+        right: 0;
+        left: 0;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .btn-me a{
+        color: #2EC06C;
+        text-decoration: none;
+    }
+    .my-work{
+        width: 180px;
+        height: 60px;
+        border:1px #2EC06C solid;
+        float: left;
+        margin-right: 50px;
+        margin-left:50px;
+        text-align: center;
+        line-height: 60px;
+        color: #2ec06c;
+        font-size: 22px;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .hire-me{
+        width: 180px;
+        height: 60px;
+        border:1px #2EC06C solid;
+        float: left;
+        text-align: center;
+        line-height: 60px;
+        color: #2ec06c;
+        font-size: 22px;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .about-me-right{
+        width: 100%;
+        height:50%;
+        background: rgba(0,0,0,0.1);
+    }
+    .about-me-right >ul{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .about-me-right >ul >li{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .about-me-right .xianshi{
+        opacity: 1;
+        transition: all 0.5s;
+    }
+    .dian{
+        width: 80px;
+        height: 15px;
+        /*background: red;*/
+        position: absolute;
+        right: 90%;
+        bottom: 25%;
+        transform: rotate(90deg);
+    }
+    .dian >div{
+        width: 15px;
+        height: 15px;
+        background: #444444;
+        float: left;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .dian .dian-xianshi{
+        background: #2ec06c;
+    }
+    /**/
+    .servicess {
+        padding-top: 30px;
+    }
+    .row{
+        margin-top: 0px;
+    }
+    .servicess li{
+        /*background: yellow;*/
+        height: 50px;
+        margin-bottom: 60px;
+        padding-right: 30px;
+        position: relative;
+    }
+    .servicess li >a{
+        font-size: 30px;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        color: #2ec06c;
+        font-weight:600;
+    }
+    .servicess li >div{
+        position: absolute;
+        top: 0;
+        left: 50px;
+    }
+    /************/
+    .check{
+        width: 100%;
+        height: auto;
+        background: #ffffff;
+        overflow: hidden;
+    }
+    .bac-img >p{
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        z-index: 20;
+        left: 50%;
+        margin-left: -225px;
+        top: 100px;
+    }
+    .bac-img >section{
+        width:80%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left:auto;
+        margin-right:auto;
+        top: 150px;
+    }
+    .bac-img >section >ul{
+        width: 100%;
+        height: 100%;
+    }
+    .bac-img >section >ul >li{
+        width: 150px;
+        height: 100%;
+        float: left;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .bac-img >section >ul >li >img{
+        display: block;
+    }
+    .check-div section{
+        width: 345px;
+        height: 331px;
+        background: #2ec06c;
+        position: absolute;
+        top: 0;
+        left: 15px;
+        transform: scale(0);
+        transition: all 0.3s;
+        opacity: 0;
+    }
+    .check-div li:hover section{
+        transform: scale(1);
+        transition: all 0.3s;
+        opacity: 0.9;
+    }
+    .check-div section >div{
+        width: 180px;
+        height: 60px;
+        border: 3px #ffffff solid;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        line-height: 60px;
+        color: #ffffff;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .a1,.a2{
+        display: block;
+        width: 50%;
+        height: 100%;
+        background: #ffffff;
+        opacity: 0;
+        transition: all 1s;
+    }
+    .a1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    .a2{
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 0 10px 10px 0;
+    }
+    .check-div section >div:hover .a1{
+        opacity: 0.6;
+        left: -50px;
+        transition: all 0.5s;
+    }
+    .check-div section >div:hover .a2{
+        opacity: 0.6;
+        right: -50px;
+        transition: all 0.5s;
+    }
+    .check-div-wen{
+        width: 100%;
+        height: 72px;
+        background: #dddddd;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    /*****    ****************************************/
+    .project {
+        height: auto;
+    }
+    .share{
+        /*background: green;*/
+        height: 200px;
+    }
+    .share div{
+        width: 160px;
+        height: 180px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        font-size: 60px;
+        text-align: center;
+        line-height: 180px;
+        transition: all 0.5s;
+    }
+    .input{
+        height: 360px;
+        position: relative;
+    }
+    .input >input{
+        width: 45%;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border:none;
+        border:1px #cccccc solid;
+        outline: none;
+    }
+    .input >textarea{
+        margin-top: 20px;
+        resize : none;
+        border:none;
+        border:1px #cccccc solid;
+        outline: none;
+        width:90%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    div.plane{
+        width:10%;
+        height:194px;
+        background: #2ec06c;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 0 10px 10px 0;
+        font-size: 50px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 194px;
+        transition: all 0.5s ;
+    }
+    div.plane:hover{
+        border:1px #2ec06c solid;
+        background: #ffffff;
+        color: #2ec06c;
+        transition: all 0.5s;
+    }
+}
+/*手机端<768px  col-xs- */
+@media screen and (max-width:768px) {
+    div.logo{
+        width: 105px;
+        height: 21px;
+        position: absolute;
+        top:0;
+        bottom: 0px;
+        right: 0;
+        left:0;
+        margin:auto;
+        z-index: 20;
+    }
+    div.logo >img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    div.hello{
+       display: none;
+    }
+    /**/
+    div.about-me{
+        width: 100%;
+        height: 600px;
+    }
+    .about-me-left{
+        width: 100%;
+        height:50%;
+        /*background: red;*/
+        padding: 20px;
+
+
+    }
+    .about-me-left >p{
+        font-size: 16px;
+        color: #000;
+        display: inline-block;
+    }
+    .about-me-left p span{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .btn-me{
+        width: 35%;
+        height: 30px;
+        position: absolute;
+        bottom: 320px;
+        right: 0;
+        left: 0;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .btn-me a{
+        color: #2EC06C;
+        text-decoration: none;
+    }
+    .my-work{
+        width: 50px;
+        height:30px;
+        border:1px #2EC06C solid;
+        float: left;
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: center;
+        line-height: 30px;
+        color: #2ec06c;
+        font-size: 14px;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .hire-me{
+        width: 50px;
+        height: 30px;
+        border:1px #2EC06C solid;
+        float: left;
+        text-align: center;
+        line-height: 30px;
+        color: #2ec06c;
+        font-size: 14px;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .about-me-right{
+        width: 100%;
+        height:50%;
+        background: rgba(0,0,0,0.1);
+    }
+    .about-me-right >ul{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .about-me-right >ul >li{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .about-me-right .xianshi{
+        opacity: 1;
+        transition: all 0.5s;
+    }
+    .dian{
+        width: 80px;
+        height: 15px;
+        /*background: red;*/
+        position: absolute;
+        right: 80%;
+        bottom: 25%;
+        transform: rotate(90deg);
+    }
+    .dian >div{
+        width: 15px;
+        height: 15px;
+        background: #444444;
+        float: left;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .dian .dian-xianshi{
+        background: #2ec06c;
+    }
+    .text{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    /**/
+    .servicess {
+        padding-top: 30px;
+    }
+    .row{
+        margin-top: 0px;
+    }
+    .servicess li{
+        /*background: yellow;*/
+        height: 50px;
+        margin-bottom: 60px;
+        padding-right: 30px;
+        position: relative;
+    }
+    .servicess li >a{
+        font-size: 30px;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        color: #2ec06c;
+        font-weight:600;
+    }
+    .servicess li >div{
+        position: absolute;
+        top: 0;
+        left: 50px;
+    }
+    /************/
+    .bac-img >p{
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        z-index: 20;
+        left: 50%;
+        margin-left: -40%;
+        top: 50px;
+    }
+    .bac-img >section{
+        width:50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left:auto;
+        margin-right:auto;
+        top: 90px;
+    }
+    .bac-img >section >ul{
+        width: 100%;
+        height: 100%;
+    }
+    .bac-img >section >ul >li{
+        width: 163px;
+        height: 30px;
+        float: left;
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .bac-img >section >ul >li >img{
+        display: block;
+    }
+    .check{
+        width: 100%;
+        height: auto;
+        background: #ffffff;
+        overflow: hidden;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .check li{
+        padding: 0;
+    }
+    .bac-img >p{
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        z-index: 20;
+        left: 50%;
+        margin-left: -225px;
+        top: 100px;
+    }
+    .bac-img >section{
+        width:80%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left:auto;
+        margin-right:auto;
+        top: 150px;
+    }
+    .bac-img >section >ul{
+        width: 100%;
+        height: 100%;
+    }
+    .bac-img >section >ul >li{
+        width: 150px;
+        height: 100%;
+        float: left;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .bac-img >section >ul >li >img{
+        display: block;
+    }
+    .check-div section{
+        width: 100%;
+        height: 100%;
+        background: #2ec06c;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        transition: all 0.3s;
+        opacity: 0;
+    }
+    .check-div li:hover section{
+        transform: scale(1);
+        transition: all 0.3s;
+        opacity: 0.9;
+    }
+    .check-div section >div{
+        width: 180px;
+        height: 60px;
+        border: 3px #ffffff solid;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        line-height: 60px;
+        color: #ffffff;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .a1,.a2{
+        display: block;
+        width: 50%;
+        height: 100%;
+        background: #ffffff;
+        opacity: 0;
+        transition: all 1s;
+    }
+    .a1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    .a2{
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 0 10px 10px 0;
+    }
+    .check-div section >div:hover .a1{
+        opacity: 0.6;
+        left: -50px;
+        transition: all 0.5s;
+    }
+    .check-div section >div:hover .a2{
+        opacity: 0.6;
+        right: -50px;
+        transition: all 0.5s;
+    }
+    .check-div-wen{
+        width: 100%;
+        height: 72px;
+        background: #dddddd;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .alo-img p{
+        top: 100px;
+    }
+    .alo-img h3{
+        width: 100%;
+        color: #2ec06c;
+        font-size: 20px;
+        position: absolute;
+        top: 65%;
+        left: 0;
+        text-align: center;
+        font-family: "宋体";
+    }
+    .project {
+        height: auto;
+    }
+    .share{
+        height: auto;
+    }
+    .share div{
+        width: 19%;
+        height: 140px;
+        float: left;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        font-size: 60px;
+        text-align: center;
+        line-height: 140px;
+        transition: all 0.5s;
+    }
+    .input{
+        height: 360px;
+        position: relative;
+    }
+    .input >input{
+        width: 45%;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border:none;
+        border:1px #cccccc solid;
+        outline: none;
+    }
+    .input >textarea{
+        margin-top: 20px;
+        resize : none;
+        border:none;
+        border:1px #cccccc solid;
+        outline: none;
+        width:90%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    div.plane{
+        width:10%;
+        height:194px;
+        background: #2ec06c;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 0 10px 10px 0;
+        font-size: 50px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 194px;
+        transition: all 0.5s ;
+    }
+    div.plane:hover{
+        border:1px #2ec06c solid;
+        background: #ffffff;
+        color: #2ec06c;
+        transition: all 0.5s;
+    }
+}
+
